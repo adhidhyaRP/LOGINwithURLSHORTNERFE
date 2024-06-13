@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   const navigate = useNavigate()
-  Axios.defaults.withCredentials = true
+ 
   
   const handleSubmit = (e) => {
     e.preventDefault();
