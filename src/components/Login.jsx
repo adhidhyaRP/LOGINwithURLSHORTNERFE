@@ -26,7 +26,7 @@ const Login = () => {
     e.preventDefault();
     const {email,password}= form
    
-   Axios.post("https://loginwithurlshortner-3.onrender.com/auth/login",{email,password}).then(response=>{
+   Axios.post("https://loginwithurlshortner-4.onrender.com/auth/login",{email,password}).then(response=>{
    if(response.data.status){
     localStorage.setItem("authorised",true)
     navigate('/')
