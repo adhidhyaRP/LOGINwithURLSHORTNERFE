@@ -24,7 +24,7 @@ const Signup = () => {
     e.preventDefault();
    const {username,email,password}= form
    
-   Axios.post("https://loginwithurlshortner-3.onrender.com/auth/signup",{username,email,password}).then(response=>{
+   Axios.post("https://loginwithurlshortner-4.onrender.com/auth/signup",{username,email,password}).then(response=>{
    if(response.data.status){
     navigate("/login")
     
