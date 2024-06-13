@@ -22,7 +22,7 @@ const Resetpassword = () => {
       const handleSubmit = (e) => {
         e.preventDefault();
         const {password}= form
-        Axios.post(`https://loginwithurlshortner-3.onrender.com/auth/resetpassword/${id}/${token}`,{password})
+        Axios.post(`https://loginwithurlshortner-4.onrender.com/auth/resetpassword/${id}/${token}`,{password})
         console.log(password,id,token)
         navigate("/login")
       }
